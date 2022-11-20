@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+//Это комментарий
+
 bool isEven()
 {
 	int a;
