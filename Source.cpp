@@ -1,4 +1,7 @@
+//Версия от codik754
+
 #include<iostream>
+#include "example.h"
 using namespace std;
 
 //Это комментарий
@@ -17,8 +20,14 @@ bool isEven()
 		return false;
 	}
 }
+
+void fun(){
+   cout << "Простая функция" << endl;
+}
+
 int main()
 {
 	isEven();
+   fun();
 	return 0;
 }
