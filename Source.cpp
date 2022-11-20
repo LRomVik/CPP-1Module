@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-//Это комментарий
-
 bool isEven()
 {
 	int a;
@@ -10,6 +8,7 @@ bool isEven()
 	std::cin >> a;
 	if (a % 2 == 0) {
 		std::cout << "True" << std::endl;
+		std::cout << "Maybe is not true, maybe its lie" << std::endl;
 		return true;
 	}
 	else {
@@ -17,6 +16,7 @@ bool isEven()
 		return false;
 	}
 }
+
 int main()
 {
 	isEven();
